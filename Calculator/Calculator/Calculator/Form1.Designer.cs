@@ -62,7 +62,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(12, 189);
+            this.textBox3.Location = new System.Drawing.Point(12, 228);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(240, 20);
             this.textBox3.TabIndex = 2;
@@ -70,7 +70,7 @@
             // 
             // Multiply
             // 
-            this.Multiply.Location = new System.Drawing.Point(138, 61);
+            this.Multiply.Location = new System.Drawing.Point(12, 61);
             this.Multiply.Name = "Multiply";
             this.Multiply.Size = new System.Drawing.Size(44, 44);
             this.Multiply.TabIndex = 3;
@@ -80,7 +80,7 @@
             // 
             // Division
             // 
-            this.Division.Location = new System.Drawing.Point(206, 61);
+            this.Division.Location = new System.Drawing.Point(74, 61);
             this.Division.Name = "Division";
             this.Division.Size = new System.Drawing.Size(46, 44);
             this.Division.TabIndex = 4;
@@ -90,7 +90,7 @@
             // 
             // Add
             // 
-            this.Add.Location = new System.Drawing.Point(12, 61);
+            this.Add.Location = new System.Drawing.Point(138, 61);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(49, 44);
             this.Add.TabIndex = 5;
@@ -100,7 +100,7 @@
             // 
             // Substraction
             // 
-            this.Substraction.Location = new System.Drawing.Point(72, 61);
+            this.Substraction.Location = new System.Drawing.Point(204, 61);
             this.Substraction.Name = "Substraction";
             this.Substraction.Size = new System.Drawing.Size(48, 44);
             this.Substraction.TabIndex = 6;
@@ -149,7 +149,7 @@
             this.Logarithm.Name = "Logarithm";
             this.Logarithm.Size = new System.Drawing.Size(44, 43);
             this.Logarithm.TabIndex = 10;
-            this.Logarithm.Text = "ln";
+            this.Logarithm.Text = "log";
             this.Logarithm.UseVisualStyleBackColor = true;
             this.Logarithm.Click += new System.EventHandler(this.button1_Click_1);
             // 
