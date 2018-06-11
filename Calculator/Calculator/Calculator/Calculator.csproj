@@ -62,6 +62,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgument\Arttangent.cs" />
+    <Compile Include="OneArgument\Arccosine.cs" />
+    <Compile Include="OneArgument\Arcsine.cs" />
+    <Compile Include="OneArgument\Indicative.cs" />
+    <Compile Include="OneArgument\Exponent.cs" />
+    <Compile Include="TwoArguments\RootCube.cs" />
+    <Compile Include="TwoArguments\Log.cs" />
+    <Compile Include="OneArgument\Root.cs" />
+    <Compile Include="OneArgument\Cube.cs" />
     <Compile Include="TwoArguments\Add.cs" />
     <Compile Include="TwoArguments\Calculator.cs" />
     <Compile Include="TwoArguments\Division.cs" />

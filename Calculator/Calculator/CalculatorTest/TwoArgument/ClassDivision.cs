@@ -3,10 +3,11 @@ using NUnit.Framework;
 
 namespace CalculatorTest
 {
-    public class ClassDivision
+    class ClassDivision
     {
-
-        [TestFixture]
+        [TestCase(4,-2,-2)]
+        [TestCase(20, 4, 5)]
+        [TestCase(-10, -2, 5)]
         public class DivisionTests
         {
             [Test]

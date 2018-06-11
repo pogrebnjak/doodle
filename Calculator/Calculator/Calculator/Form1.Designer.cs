@@ -43,6 +43,15 @@
             this.Sinus = new System.Windows.Forms.Button();
             this.Squaring = new System.Windows.Forms.Button();
             this.Module = new System.Windows.Forms.Button();
+            this.Cube = new System.Windows.Forms.Button();
+            this.Root = new System.Windows.Forms.Button();
+            this.log = new System.Windows.Forms.Button();
+            this.Arctangent = new System.Windows.Forms.Button();
+            this.RootCube = new System.Windows.Forms.Button();
+            this.Indicative = new System.Windows.Forms.Button();
+            this.Exponent = new System.Windows.Forms.Button();
+            this.Arcsine = new System.Windows.Forms.Button();
+            this.Arccosine = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,7 +71,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(12, 228);
+            this.textBox3.Location = new System.Drawing.Point(4, 344);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(240, 20);
             this.textBox3.TabIndex = 2;
@@ -92,7 +101,7 @@
             // 
             this.Add.Location = new System.Drawing.Point(138, 61);
             this.Add.Name = "Add";
-            this.Add.Size = new System.Drawing.Size(49, 44);
+            this.Add.Size = new System.Drawing.Size(44, 44);
             this.Add.TabIndex = 5;
             this.Add.Text = "+";
             this.Add.UseVisualStyleBackColor = true;
@@ -102,7 +111,7 @@
             // 
             this.Substraction.Location = new System.Drawing.Point(204, 61);
             this.Substraction.Name = "Substraction";
-            this.Substraction.Size = new System.Drawing.Size(48, 44);
+            this.Substraction.Size = new System.Drawing.Size(44, 44);
             this.Substraction.TabIndex = 6;
             this.Substraction.Text = "-";
             this.Substraction.UseVisualStyleBackColor = true;
@@ -131,7 +140,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 212);
+            this.label3.Location = new System.Drawing.Point(1, 328);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 9;
@@ -167,7 +176,7 @@
             // 
             this.Squaring.Location = new System.Drawing.Point(138, 111);
             this.Squaring.Name = "Squaring";
-            this.Squaring.Size = new System.Drawing.Size(49, 43);
+            this.Squaring.Size = new System.Drawing.Size(44, 43);
             this.Squaring.TabIndex = 12;
             this.Squaring.Text = "x^2";
             this.Squaring.UseVisualStyleBackColor = true;
@@ -177,17 +186,116 @@
             // 
             this.Module.Location = new System.Drawing.Point(204, 112);
             this.Module.Name = "Module";
-            this.Module.Size = new System.Drawing.Size(48, 42);
+            this.Module.Size = new System.Drawing.Size(44, 42);
             this.Module.TabIndex = 13;
             this.Module.Text = "mod";
             this.Module.UseVisualStyleBackColor = true;
             this.Module.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // Cube
+            // 
+            this.Cube.Location = new System.Drawing.Point(12, 160);
+            this.Cube.Name = "Cube";
+            this.Cube.Size = new System.Drawing.Size(44, 43);
+            this.Cube.TabIndex = 14;
+            this.Cube.Text = "X^3";
+            this.Cube.UseVisualStyleBackColor = true;
+            this.Cube.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // Root
+            // 
+            this.Root.Location = new System.Drawing.Point(74, 160);
+            this.Root.Name = "Root";
+            this.Root.Size = new System.Drawing.Size(44, 43);
+            this.Root.TabIndex = 15;
+            this.Root.Text = "Root";
+            this.Root.UseVisualStyleBackColor = true;
+            this.Root.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // log
+            // 
+            this.log.Location = new System.Drawing.Point(138, 160);
+            this.log.Name = "log";
+            this.log.Size = new System.Drawing.Size(44, 43);
+            this.log.TabIndex = 16;
+            this.log.Text = "Log";
+            this.log.UseVisualStyleBackColor = true;
+            this.log.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Arctangent
+            // 
+            this.Arctangent.Location = new System.Drawing.Point(204, 160);
+            this.Arctangent.Name = "Arctangent";
+            this.Arctangent.Size = new System.Drawing.Size(44, 43);
+            this.Arctangent.TabIndex = 17;
+            this.Arctangent.Text = "Arctan";
+            this.Arctangent.UseVisualStyleBackColor = true;
+            this.Arctangent.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // RootCube
+            // 
+            this.RootCube.Location = new System.Drawing.Point(13, 209);
+            this.RootCube.Name = "RootCube";
+            this.RootCube.Size = new System.Drawing.Size(44, 43);
+            this.RootCube.TabIndex = 18;
+            this.RootCube.Text = "x^(1/y)";
+            this.RootCube.UseVisualStyleBackColor = true;
+            this.RootCube.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Indicative
+            // 
+            this.Indicative.Location = new System.Drawing.Point(16, 258);
+            this.Indicative.Name = "Indicative";
+            this.Indicative.Size = new System.Drawing.Size(44, 43);
+            this.Indicative.TabIndex = 21;
+            this.Indicative.Text = "Indicative";
+            this.Indicative.UseVisualStyleBackColor = true;
+            this.Indicative.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // Exponent
+            // 
+            this.Exponent.Location = new System.Drawing.Point(204, 209);
+            this.Exponent.Name = "Exponent";
+            this.Exponent.Size = new System.Drawing.Size(44, 43);
+            this.Exponent.TabIndex = 22;
+            this.Exponent.Text = "Exponent";
+            this.Exponent.UseVisualStyleBackColor = true;
+            this.Exponent.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // Arcsine
+            // 
+            this.Arcsine.Location = new System.Drawing.Point(138, 209);
+            this.Arcsine.Name = "Arcsine";
+            this.Arcsine.Size = new System.Drawing.Size(44, 43);
+            this.Arcsine.TabIndex = 23;
+            this.Arcsine.Text = "Arcsine";
+            this.Arcsine.UseVisualStyleBackColor = true;
+            this.Arcsine.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // Arccosine
+            // 
+            this.Arccosine.Location = new System.Drawing.Point(74, 209);
+            this.Arccosine.Name = "Arccosine";
+            this.Arccosine.Size = new System.Drawing.Size(44, 43);
+            this.Arccosine.TabIndex = 24;
+            this.Arccosine.Text = "Arccosine";
+            this.Arccosine.UseVisualStyleBackColor = true;
+            this.Arccosine.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(444, 376);
+            this.Controls.Add(this.Arccosine);
+            this.Controls.Add(this.Arcsine);
+            this.Controls.Add(this.Exponent);
+            this.Controls.Add(this.Indicative);
+            this.Controls.Add(this.RootCube);
+            this.Controls.Add(this.Arctangent);
+            this.Controls.Add(this.log);
+            this.Controls.Add(this.Root);
+            this.Controls.Add(this.Cube);
             this.Controls.Add(this.Module);
             this.Controls.Add(this.Squaring);
             this.Controls.Add(this.Sinus);
@@ -227,6 +335,15 @@
         private System.Windows.Forms.Button Squaring;
         private System.Windows.Forms.Button Sinus;
         private System.Windows.Forms.Button Logarithm;
+        private System.Windows.Forms.Button Cube;
+        private System.Windows.Forms.Button Root;
+        private System.Windows.Forms.Button log;
+        private System.Windows.Forms.Button Arctangent;
+        private System.Windows.Forms.Button RootCube;
+        private System.Windows.Forms.Button Arccosine;
+        private System.Windows.Forms.Button Arcsine;
+        private System.Windows.Forms.Button Exponent;
+        private System.Windows.Forms.Button Indicative;
     }
 }
 

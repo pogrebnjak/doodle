@@ -16,6 +16,10 @@ namespace Calculator.TwoArguments
                     return  new Add();
                 case "Substraction":
                     return  new Substraction();
+                case "log":
+                    return new Log();
+                case "RootCube":
+                    return new RootCube();
                 default:
                     throw new Exception("Неизвестная операция");
             }
