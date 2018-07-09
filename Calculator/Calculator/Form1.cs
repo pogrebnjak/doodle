@@ -15,7 +15,6 @@ namespace Calculator
         {
             InitializeComponent();
         }
-        float a, b, c, z;
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -48,18 +47,18 @@ namespace Calculator
 
         private void button14_Click(object sender, EventArgs e)
         {
-            a = Convert.ToInt32(textBox1.Text);
-            b = Convert.ToInt32(textBox2.Text);
-            c = a + b;
-            label1.Text = c.ToString();
+            double firstnumber = Convert.ToDouble(textBox1.Text);
+            double secondnumber = Convert.ToDouble(textBox2.Text);
+            double result = firstnumber + secondnumber;
+            label1.Text = result.ToString();
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            a = Convert.ToInt32(textBox1.Text);
-            b = Convert.ToInt32(textBox2.Text);
-            c = a - b;
-            label1.Text = c.ToString();
+            double firstnumber = Convert.ToDouble(textBox1.Text);
+            double secondnumber = Convert.ToDouble(textBox2.Text);
+            double result = firstnumber - secondnumber;
+            label1.Text = result.ToString();
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -69,18 +68,18 @@ namespace Calculator
 
         private void button16_Click(object sender, EventArgs e)
         {
-            a = Convert.ToInt32(textBox1.Text);
-            b = Convert.ToInt32(textBox2.Text);
-            c = a * b;
-            label1.Text = c.ToString();
+            double firstnumber = Convert.ToDouble(textBox1.Text);
+            double secondnumber = Convert.ToDouble(textBox2.Text);
+            double result = firstnumber * secondnumber;
+            label1.Text = result.ToString();
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            a = Convert.ToInt32(textBox1.Text);
-            b = Convert.ToInt32(textBox2.Text);
-            c = a / b;
-            label1.Text = c.ToString();
+            double firstnumber = Convert.ToDouble(textBox1.Text);
+            double secondnumber = Convert.ToDouble(textBox2.Text);
+            double result = firstnumber / secondnumber;
+            label1.Text = result.ToString();
         }
 
         private void button18_Click(object sender, EventArgs e)
