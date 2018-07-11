@@ -4,7 +4,7 @@
     {
         public double Calculate(double firstArgument, double secondArgument)
         {
-            return (firstArgument/100) + (secondArgument+100);
+            return (firstArgument/100) * (secondArgument+100);
         }
     }
 }
