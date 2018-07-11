@@ -20,6 +20,19 @@ namespace Calculator.TwoArguments
                     return new Log();
                 case "RootCube":
                     return new RootCube();
+                case "Powerxy":
+                    return new Powerxy();
+                case "SquareAdd":
+                    return new SquareAdd();
+                case "SquareSum":
+                    return new SquareSum();
+                case "percent":
+                    return new percent();
+                case "negativeDegree":
+                    return new negativeDegree();
+                case "SquareDifference":
+                    return new SquareDifference();
+
                 default:
                     throw new Exception("Неизвестная операция");
             }

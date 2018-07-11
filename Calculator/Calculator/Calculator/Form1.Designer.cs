@@ -52,6 +52,18 @@
             this.Exponent = new System.Windows.Forms.Button();
             this.Arcsine = new System.Windows.Forms.Button();
             this.Arccosine = new System.Windows.Forms.Button();
+            this.Powerxy = new System.Windows.Forms.Button();
+            this.Indicative10 = new System.Windows.Forms.Button();
+            this.Tangent = new System.Windows.Forms.Button();
+            this.Cosine = new System.Windows.Forms.Button();
+            this.Negative = new System.Windows.Forms.Button();
+            this.Fraction = new System.Windows.Forms.Button();
+            this.SquareAdd = new System.Windows.Forms.Button();
+            this.SquareSum = new System.Windows.Forms.Button();
+            this.percent = new System.Windows.Forms.Button();
+            this.negativeDegree = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.SquareDifference = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -248,7 +260,7 @@
             this.Indicative.Name = "Indicative";
             this.Indicative.Size = new System.Drawing.Size(44, 43);
             this.Indicative.TabIndex = 21;
-            this.Indicative.Text = "Indicative";
+            this.Indicative.Text = "2^x";
             this.Indicative.UseVisualStyleBackColor = true;
             this.Indicative.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -282,11 +294,142 @@
             this.Arccosine.UseVisualStyleBackColor = true;
             this.Arccosine.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // Powerxy
+            // 
+            this.Powerxy.Location = new System.Drawing.Point(268, 258);
+            this.Powerxy.Name = "Powerxy";
+            this.Powerxy.Size = new System.Drawing.Size(44, 43);
+            this.Powerxy.TabIndex = 25;
+            this.Powerxy.Text = "x^y";
+            this.Powerxy.UseVisualStyleBackColor = true;
+            this.Powerxy.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Indicative10
+            // 
+            this.Indicative10.Location = new System.Drawing.Point(204, 258);
+            this.Indicative10.Name = "Indicative10";
+            this.Indicative10.Size = new System.Drawing.Size(44, 43);
+            this.Indicative10.TabIndex = 26;
+            this.Indicative10.Text = "10^x";
+            this.Indicative10.UseVisualStyleBackColor = true;
+            this.Indicative10.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // Tangent
+            // 
+            this.Tangent.Location = new System.Drawing.Point(138, 258);
+            this.Tangent.Name = "Tangent";
+            this.Tangent.Size = new System.Drawing.Size(44, 43);
+            this.Tangent.TabIndex = 27;
+            this.Tangent.Text = "Tangent";
+            this.Tangent.UseVisualStyleBackColor = true;
+            this.Tangent.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // Cosine
+            // 
+            this.Cosine.Location = new System.Drawing.Point(76, 258);
+            this.Cosine.Name = "Cosine";
+            this.Cosine.Size = new System.Drawing.Size(44, 43);
+            this.Cosine.TabIndex = 28;
+            this.Cosine.Text = "Cosine";
+            this.Cosine.UseVisualStyleBackColor = true;
+            this.Cosine.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // Negative
+            // 
+            this.Negative.Location = new System.Drawing.Point(268, 209);
+            this.Negative.Name = "Negative";
+            this.Negative.Size = new System.Drawing.Size(44, 43);
+            this.Negative.TabIndex = 29;
+            this.Negative.Text = "x*-1";
+            this.Negative.UseVisualStyleBackColor = true;
+            this.Negative.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // Fraction
+            // 
+            this.Fraction.Location = new System.Drawing.Point(268, 160);
+            this.Fraction.Name = "Fraction";
+            this.Fraction.Size = new System.Drawing.Size(44, 43);
+            this.Fraction.TabIndex = 30;
+            this.Fraction.Text = "1/x";
+            this.Fraction.UseVisualStyleBackColor = true;
+            this.Fraction.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // SquareAdd
+            // 
+            this.SquareAdd.Location = new System.Drawing.Point(268, 112);
+            this.SquareAdd.Name = "SquareAdd";
+            this.SquareAdd.Size = new System.Drawing.Size(44, 43);
+            this.SquareAdd.TabIndex = 31;
+            this.SquareAdd.Text = "x^2+y^2";
+            this.SquareAdd.UseVisualStyleBackColor = true;
+            this.SquareAdd.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // SquareSum
+            // 
+            this.SquareSum.Location = new System.Drawing.Point(268, 63);
+            this.SquareSum.Name = "SquareSum";
+            this.SquareSum.Size = new System.Drawing.Size(44, 43);
+            this.SquareSum.TabIndex = 32;
+            this.SquareSum.Text = "(x+y)^2";
+            this.SquareSum.UseVisualStyleBackColor = true;
+            this.SquareSum.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // percent
+            // 
+            this.percent.Location = new System.Drawing.Point(330, 111);
+            this.percent.Name = "percent";
+            this.percent.Size = new System.Drawing.Size(44, 43);
+            this.percent.TabIndex = 33;
+            this.percent.Text = "%";
+            this.percent.UseVisualStyleBackColor = true;
+            this.percent.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // negativeDegree
+            // 
+            this.negativeDegree.Location = new System.Drawing.Point(330, 162);
+            this.negativeDegree.Name = "negativeDegree";
+            this.negativeDegree.Size = new System.Drawing.Size(44, 43);
+            this.negativeDegree.TabIndex = 34;
+            this.negativeDegree.Text = "x^(-y)";
+            this.negativeDegree.UseVisualStyleBackColor = true;
+            this.negativeDegree.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(330, 211);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(44, 43);
+            this.button1.TabIndex = 35;
+            this.button1.Text = "x^(-y)";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // SquareDifference
+            // 
+            this.SquareDifference.Location = new System.Drawing.Point(330, 63);
+            this.SquareDifference.Name = "SquareDifference";
+            this.SquareDifference.Size = new System.Drawing.Size(44, 43);
+            this.SquareDifference.TabIndex = 36;
+            this.SquareDifference.Text = "x^2-y^2";
+            this.SquareDifference.UseVisualStyleBackColor = true;
+            this.SquareDifference.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(444, 376);
+            this.Controls.Add(this.SquareDifference);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.negativeDegree);
+            this.Controls.Add(this.percent);
+            this.Controls.Add(this.SquareSum);
+            this.Controls.Add(this.SquareAdd);
+            this.Controls.Add(this.Fraction);
+            this.Controls.Add(this.Negative);
+            this.Controls.Add(this.Cosine);
+            this.Controls.Add(this.Tangent);
+            this.Controls.Add(this.Indicative10);
+            this.Controls.Add(this.Powerxy);
             this.Controls.Add(this.Arccosine);
             this.Controls.Add(this.Arcsine);
             this.Controls.Add(this.Exponent);
@@ -344,6 +487,18 @@
         private System.Windows.Forms.Button Arcsine;
         private System.Windows.Forms.Button Exponent;
         private System.Windows.Forms.Button Indicative;
+        private System.Windows.Forms.Button Cosine;
+        private System.Windows.Forms.Button Tangent;
+        private System.Windows.Forms.Button Indicative10;
+        private System.Windows.Forms.Button Powerxy;
+        private System.Windows.Forms.Button Negative;
+        private System.Windows.Forms.Button Fraction;
+        private System.Windows.Forms.Button SquareAdd;
+        private System.Windows.Forms.Button SquareSum;
+        private System.Windows.Forms.Button percent;
+        private System.Windows.Forms.Button negativeDegree;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button SquareDifference;
     }
 }
 

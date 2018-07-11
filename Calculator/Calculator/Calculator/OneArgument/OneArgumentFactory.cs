@@ -30,6 +30,20 @@ namespace Calculator.OneArgument
                     return new Exponent();
                 case "Indicative":
                     return new Indicative();
+                case "Indicative10":
+                    return new Indicative10();
+                case "Cosine":
+                    return new  Cosine();
+                case "Tangent":
+                    return new Tangent();
+                case "Negative":
+                    return new Negative();
+                case "Fraction":
+                    return new Fraction();
+
+
+
+
 
                 default:
                     throw new Exception("Неизвестная операция");
