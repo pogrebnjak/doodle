@@ -170,7 +170,7 @@
             this.Logarithm.Name = "Logarithm";
             this.Logarithm.Size = new System.Drawing.Size(44, 43);
             this.Logarithm.TabIndex = 10;
-            this.Logarithm.Text = "log";
+            this.Logarithm.Text = "ln";
             this.Logarithm.UseVisualStyleBackColor = true;
             this.Logarithm.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -400,7 +400,7 @@
             this.Exp.Name = "Exp";
             this.Exp.Size = new System.Drawing.Size(44, 43);
             this.Exp.TabIndex = 35;
-            this.Exp.Text = "e";
+            this.Exp.Text = "e^x";
             this.Exp.UseVisualStyleBackColor = true;
             this.Exp.Click += new System.EventHandler(this.button1_Click_1);
             // 
