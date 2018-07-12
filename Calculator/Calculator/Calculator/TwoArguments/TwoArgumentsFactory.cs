@@ -4,6 +4,11 @@ namespace Calculator.TwoArguments
 {
     public class TwoArgumentsFactory
     {
+        /// <summary>
+        /// create calculator
+        /// </summary>
+        /// <param name="calculatorName"></param>
+        /// <returns></returns>
         public static ICalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

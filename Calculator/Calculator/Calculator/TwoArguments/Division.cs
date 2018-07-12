@@ -3,6 +3,16 @@ namespace Calculator.TwoArguments
 {
     public class Division : ICalculator
     {
+        /// <summary>
+        /// calculate x/y functions
+        /// </summary>
+        /// <param name="firstArgument"></param>
+        /// check firsyArgument
+        /// if firstArgument more than 0
+        /// then error
+        /// <returns>
+        /// resturns result x/y 
+        /// </returns>
         public double Calculate(double firstArgument, double secondArgument)
         {
          
