@@ -71,14 +71,14 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(12, 22);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 20);
+            this.textBox1.Size = new System.Drawing.Size(148, 20);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(157, 22);
+            this.textBox2.Location = new System.Drawing.Point(251, 22);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(95, 20);
+            this.textBox2.Size = new System.Drawing.Size(142, 20);
             this.textBox2.TabIndex = 1;
             // 
             // textBox3
@@ -132,7 +132,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 3);
+            this.label1.Location = new System.Drawing.Point(45, 3);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 13);
             this.label1.TabIndex = 7;
@@ -142,7 +142,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(154, 3);
+            this.label2.Location = new System.Drawing.Point(291, 6);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 13);
             this.label2.TabIndex = 8;
@@ -152,7 +152,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(1, 328);
+            this.label3.Location = new System.Drawing.Point(77, 328);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 9;
@@ -380,7 +380,7 @@
             this.percent.Name = "percent";
             this.percent.Size = new System.Drawing.Size(44, 43);
             this.percent.TabIndex = 33;
-            this.percent.Text = "%";
+            this.percent.Text = "+%";
             this.percent.UseVisualStyleBackColor = true;
             this.percent.Click += new System.EventHandler(this.button1_Click);
             // 

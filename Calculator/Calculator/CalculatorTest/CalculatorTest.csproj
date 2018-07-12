@@ -57,7 +57,7 @@
     <Compile Include="OneArgument\ClassSinus.cs" />
     <Compile Include="OneArgument\ClassLogarithm.cs" />
     <Compile Include="OneArgument\ClassArttangent.cs" />
-    <Compile Include="OneArgument\ClassArcsinus.cs" />
+    <Compile Include="OneArgument\ClassArcsine.cs" />
     <Compile Include="OneArgument\ClassArccosine.cs" />
     <Compile Include="OneArgument\ClassModule.cs" />
     <Compile Include="TwoArgument\ClassTwoArgumentsFactory.cs" />

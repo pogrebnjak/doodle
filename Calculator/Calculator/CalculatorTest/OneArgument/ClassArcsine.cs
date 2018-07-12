@@ -6,29 +6,28 @@ namespace CalculatorTest.OneArgument
 {
 
     [TestFixture]
-    public class LogarithmTests
+    public class ArcsineTests
     {
 
 
-        [TestCase(1, 0)]
-        [TestCase(100, 4.605)]
-        [TestCase(1000, 6.907)]
+        [TestCase(0.5, 0.523)]
+        [TestCase(0.6, 0.643)]
+        [TestCase(0.7, 0.775)]
 
-        public void LogarithmTest(double value, double expected)
+        public void ArcsineTest(double value, double expected)
         {
-            IOoneCalculator calculator = OneArgumentFactory.CreateCalculator("Logarithm");
+            IOoneCalculator calculator = OneArgumentFactory.CreateCalculator("Arcsine");
             double result = calculator.Calculate(value);
             Assert.AreEqual(expected, result, 0.01);
         }
 
-        [TestCase(-1)]
-        [TestCase(0)]
+        [TestCase(-1.1)]
+        [TestCase(1.1)]
         public void ExceptionLessThanZeroTest(double firstArgument)
         {
-            var calculator = new Logarithm();
+            var calculator = new Arcsine();
             Assert.Throws<Exception>(() => calculator.Calculate(firstArgument));
         }
     }
 }
-
 
