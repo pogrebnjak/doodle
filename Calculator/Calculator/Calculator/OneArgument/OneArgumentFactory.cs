@@ -26,8 +26,8 @@ namespace Calculator.OneArgument
                     return new Arcsine();
                 case "Arccosine":
                     return new Arccosine();
-                case "Exponent":
-                    return new Exponent();
+                case "Exp":
+                    return new Exp();
                 case "Indicative":
                     return new Indicative();
                 case "Indicative10":
@@ -40,11 +40,6 @@ namespace Calculator.OneArgument
                     return new Negative();
                 case "Fraction":
                     return new Fraction();
-
-
-
-
-
                 default:
                     throw new Exception("Неизвестная операция");
             }

@@ -16,7 +16,7 @@ namespace Calculator.TwoArguments
                     return  new Add();
                 case "Substraction":
                     return  new Substraction();
-                case "log":
+                case "Log":
                     return new Log();
                 case "RootCube":
                     return new RootCube();
@@ -32,7 +32,6 @@ namespace Calculator.TwoArguments
                     return new negativeDegree();
                 case "SquareDifference":
                     return new SquareDifference();
-
                 default:
                     throw new Exception("Неизвестная операция");
             }

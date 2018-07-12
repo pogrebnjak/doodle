@@ -62,7 +62,7 @@
             this.SquareSum = new System.Windows.Forms.Button();
             this.percent = new System.Windows.Forms.Button();
             this.negativeDegree = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Exp = new System.Windows.Forms.Button();
             this.SquareDifference = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.SuspendLayout();
@@ -394,14 +394,15 @@
             this.negativeDegree.UseVisualStyleBackColor = true;
             this.negativeDegree.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button1
+            // Exp
             // 
-            this.button1.Location = new System.Drawing.Point(330, 211);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(44, 43);
-            this.button1.TabIndex = 35;
-            this.button1.Text = "x^(-y)";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Exp.Location = new System.Drawing.Point(330, 211);
+            this.Exp.Name = "Exp";
+            this.Exp.Size = new System.Drawing.Size(44, 43);
+            this.Exp.TabIndex = 35;
+            this.Exp.Text = "e";
+            this.Exp.UseVisualStyleBackColor = true;
+            this.Exp.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // SquareDifference
             // 
@@ -419,7 +420,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(444, 376);
             this.Controls.Add(this.SquareDifference);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Exp);
             this.Controls.Add(this.negativeDegree);
             this.Controls.Add(this.percent);
             this.Controls.Add(this.SquareSum);
@@ -497,7 +498,7 @@
         private System.Windows.Forms.Button SquareSum;
         private System.Windows.Forms.Button percent;
         private System.Windows.Forms.Button negativeDegree;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Exp;
         private System.Windows.Forms.Button SquareDifference;
     }
 }
